@@ -9,3 +9,6 @@ Main goals:
 - easy access to all shared information
 - access to information for LCD/Mainboard/E2E processes for each tablet parts
 
+etc
+
+Read more at doc/readme.txt
