@@ -1,0 +1,37 @@
+Group;Name;id
+Main;Brand;1
+Main;Model;2
+Main;Part Number;3
+Specification;Dimensions (H*L*B);4
+Specification;Weight (grammes);5
+Specification;Software OS;6
+Specification;Battery;7
+Specification;Battery life - on video;8
+Specification;Card reader;9
+Specification;Hard drive memory;10
+Specification;CPU;11
+Specification;RAM;12
+Specification;GPS;13
+Display;Resolution;14
+Display;Screen size;15
+Display;Screen type;16
+Sensors;Adaptive ambient lighting;17
+Sensors;Accelerometer;18
+Sensors;Barometer;19
+Sensors;Digital Compass;20
+Sensors;Gyroscope;21
+Multimedia;Speaker;22
+Multimedia;Rear camera;23
+Multimedia;Front camera;24
+Multimedia;Video;25
+Connections;2G Network;26
+Connections;3G Network;27
+Connections;Bluetooth;28
+Connections;WI-FI 802.11  ;29
+Connections;USB;30
+Connections;HDMI;31
+Documentation;User Guide;32
+Other;Colours;33
+Launch info;Date;34
+Launch info;Region;35
+Launch info;Pricepoint;36

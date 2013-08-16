@@ -1,0 +1,20 @@
+id;name
+pre-release;Android alpha
+pre-release;Android beta
+API level 1;Android 1.0
+API level 2;Android 1.1
+API level 3;Android 1.5 Cupcake
+API level 4;Android 1.6 Donut
+API level 5;Android 2.0 Eclair
+API level 6;Android 2.01 Eclair
+API level 7;Android 2.1 Eclair
+API level 8;Android 2.2-2.2.3 Froyo
+API level 9;Android 2.3-2.3.2 Gingerbread
+API level 10;Android 2.3.3 -2.3.7 Gingerbread
+API level 11;Android 3.0 Honeycomb
+API level 12;Android 3.1 Honeycomb
+API level 13;Android 3.2 Honeycomb
+API level 14;Android 4.0-4.0.2 Ice Cream Sandwich
+API level 15;Android 4.0.3-4.04 Ice Cream Sandwich
+API level 16;Android 4.1 Jelly Bean 
+API level 17;Android 4.2 Jelly Bean 
