@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Czas wygenerowania: 18 Sie 2013, 21:25
+-- Czas wygenerowania: 27 Sie 2013, 22:23
 -- Wersja serwera: 5.5.31-0ubuntu1
 -- Wersja PHP: 5.5.1-1ubuntu1
 
@@ -30,6 +30,7 @@ CREATE TABLE IF NOT EXISTS `jtab.main.conf` (
   `Group` varchar(64) NOT NULL,
   `Name` varchar(64) NOT NULL,
   `ID` int(64) NOT NULL,
+  UNIQUE KEY `ID` (`ID`),
   KEY `jtab.main.conf.id` (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -38,9 +39,6 @@ CREATE TABLE IF NOT EXISTS `jtab.main.conf` (
 --
 
 INSERT INTO `jtab.main.conf` (`Group`, `Name`, `ID`) VALUES
-('Main', 'Brand', 1),
-('Main', 'Model', 2),
-('Main', 'Part Number', 3),
 ('Specification', 'Dimensions (H*L*B)', 4),
 ('Specification', 'Weight (grammes)', 5),
 ('Specification', 'Software OS', 6),
@@ -66,7 +64,7 @@ INSERT INTO `jtab.main.conf` (`Group`, `Name`, `ID`) VALUES
 ('Connections', '2G Network', 26),
 ('Connections', '3G Network', 27),
 ('Connections', 'Bluetooth', 28),
-('Connections', 'WI-FI 802.11  ', 29),
+('Connections', 'WI-FI 802.11', 29),
 ('Connections', 'USB', 30),
 ('Connections', 'HDMI', 31),
 ('Documentation', 'User Guide', 32),

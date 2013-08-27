@@ -2,12 +2,12 @@
 # MySQL settings
  #Main settings
 	$cfg['db']['server'] = 'localhost'; // Nazwa serwera bazy danych (najczęściej localhost)
-	$cfg['db']['user'] = 'root'; // Nazwa użytkownika bazy danych
-#		$cfg['db']['user'] = 'dev_zimniak_rg'; // Nazwa użytkownika bazy danych
-	$cfg['db']['pass'] = 'adoa2223abz'; // Hasło do bazy danych
-#		$cfg['db']['pass'] = 'jabil123'; // Hasło do bazy danych
-	$cfg['db']['name'] = 'jtab'; // Nazwa bazy danych
-#		$cfg['db']['name'] = 'dev_zimniak_org'; // Nazwa bazy danych
+#	$cfg['db']['user'] = 'root'; // Nazwa użytkownika bazy danych
+		$cfg['db']['user'] = 'dev_zimniak_rg'; // Nazwa użytkownika bazy danych
+#	$cfg['db']['pass'] = 'adoa2223abz'; // Hasło do bazy danych
+		$cfg['db']['pass'] = 'jabil123'; // Hasło do bazy danych
+#	$cfg['db']['name'] = 'jtab'; // Nazwa bazy danych
+		$cfg['db']['name'] = 'dev_zimniak_org'; // Nazwa bazy danych
 	$cfg['db']['prefix'] = 'jtab.'; // Prefix tabel w bazie (np. skrypt_)
  
 # Logger settings
@@ -18,5 +18,6 @@ $cfg['logger']['logs_dir'] = $_SERVER['DOCUMENT_ROOT'].'/jtab/logs'; // Nazwa ka
 
 
 #do wywalenia :)
-$picpath="/jtab/";
+#$picpath="/jtab/";
+$picpath="";
 ?>

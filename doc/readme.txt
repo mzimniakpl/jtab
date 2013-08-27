@@ -44,5 +44,11 @@
   
 4) TODO:
 
-Database PHP connect procedures
+GUI animations
+Service tab
+admin panel
+login system
+
+cleanup files
+
 

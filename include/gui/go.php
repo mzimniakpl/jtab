@@ -48,10 +48,10 @@ db::connect(); // connect do mysql database
 		# Zamienic ;)
 		
 		$root = $_SERVER['DOCUMENT_ROOT'];
-		$dir=$root.$picpath."data/images/".$Main_Brand."/".$Main_Model;
+		$dir=$root.$picpath."/data/images/".$Main_Brand."/".$Main_Model;
 		$dir1="data/images/".$Main_Brand."/".$Main_Model."/";
 		
-		//echo $dir;
+		echo $dir;
 		
 		if (is_dir($dir)) {
 			if ($dh = opendir($dir)) {
