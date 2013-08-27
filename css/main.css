@@ -96,12 +96,19 @@ div#container
 }
 body
 {
-   font-size: 8px;
+   font-size: 12px;
    line-height: 1.1875;
    text-align: center;
    margin: 0;
    background-color: #FFFFFF;
    color: #000000;
+}
+
+span#container-main
+{
+	color:#000000;
+	font-family:Arial;
+	font-size:13px;
 }
 
 a
